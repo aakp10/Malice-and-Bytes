@@ -1,3 +1,7 @@
+'''
+Can use the coreutils function as well
++ base64 import in python
+'''
 from string import ascii_lowercase,ascii_uppercase,digits
 
 def b2b64encode(byte_str):
@@ -33,3 +37,4 @@ def b2b64encode(byte_str):
     return byte_b64_enoded
 
 b2b64encode(b"Man is distinguished, not only by his reason")
+
